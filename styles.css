@@ -166,3 +166,16 @@ body>:nth-child(n+2){
     display: grid;
     grid-template-rows: 1fr 1fr fr 1fr;
 }
+
+.profile{
+    display: grid;
+    grid-template-columns: 0.1fr 1fr;
+    align-items: center;
+}
+
+.profile img{
+    height: 50px;
+    border-radius: 50%;
+
+    grid-area: 1/1/3/1;
+}
